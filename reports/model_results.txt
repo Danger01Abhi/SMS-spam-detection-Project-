@@ -1,0 +1,22 @@
+SMS SPAM DETECTION - TEST RESULTS
+========================================
+
+Test samples: 1032
+Accuracy: 0.9806
+Precision: 0.9091
+Recall: 0.9375
+F1-score: 0.9231
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Ham (Normal)     0.9911    0.9867    0.9889       904
+        Spam     0.9091    0.9375    0.9231       128
+
+    accuracy                         0.9806      1032
+   macro avg     0.9501    0.9621    0.9560      1032
+weighted avg     0.9809    0.9806    0.9807      1032
+
+Confusion Matrix:
+[[892  12]
+ [  8 120]]

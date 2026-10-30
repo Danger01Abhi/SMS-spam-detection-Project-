@@ -1,0 +1,17 @@
+SMS SPAM DETECTION - EDA SUMMARY
+========================================
+
+Dataset rows after label validation: 5572
+Invalid-label rows excluded from analysis: 0
+Duplicate rows (before any removal): 403
+
+Class distribution:
+ham: 4825 (86.59%)
+spam: 747 (13.41%)
+
+Message length statistics:
+      character_count                 word_count                
+                 mean median min  max       mean median min  max
+label                                                           
+ham             71.56   52.0   2  910      14.31   11.0   1  171
+spam           139.12  149.0  13  224      23.91   25.0   2   35

@@ -1,0 +1,22 @@
+TF-IDF + LOGISTIC REGRESSION RESULTS
+=============================================
+
+Test samples: 1032
+Accuracy: 0.9797
+Precision: 0.9023
+Recall: 0.9375
+F1-score: 0.9195
+
+Classification Report:
+              precision    recall  f1-score   support
+
+Ham (Normal)     0.9911    0.9856    0.9884       904
+        Spam     0.9023    0.9375    0.9195       128
+
+    accuracy                         0.9797      1032
+   macro avg     0.9467    0.9616    0.9539      1032
+weighted avg     0.9801    0.9797    0.9798      1032
+
+Confusion Matrix:
+[[891  13]
+ [  8 120]]
