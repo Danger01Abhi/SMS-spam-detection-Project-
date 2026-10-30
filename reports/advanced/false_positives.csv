@@ -1,0 +1,12 @@
+message,actual,predicted,spam_score
+"Sir, i am waiting for your call, once free please call me.",0,1,0.5750077257595904
+I'm at home. Please call,0,1,0.6092788565465883
+I'm at work. Please call,0,1,0.6358453395884097
+Glad to see your reply.,0,1,0.6604934502554598
+Are you free now?can i call now?,0,1,0.6490895085271556
+I'm vivek:)i got call from your number.,0,1,0.8601068265280549
+Your daily text from me â a favour this time,0,1,0.6438874867728028
+Dont you have message offer,0,1,0.5952286173648274
+"Please protect yourself from e-threats. SIB never asks for sensitive information like Passwords,ATM/SMS PIN thru email. Never share your password with anybody.",0,1,0.6076251035430822
+Cps is causing the outages to conserve energy.,0,1,0.5481239108599382
+I got a call from a landline number. . . I am asked to come to anna nagar . . . I will go in the afternoon,0,1,0.5368839604377014
