@@ -1,0 +1,36 @@
+IIIT-D EXPERIMENTAL SMS MODEL
+
+Original messages loaded: 2000
+Exact duplicate copies removed: 28
+Rows excluded due to conflicting labels: 0
+Unique messages used: 1972
+
+Training messages: 1577
+Testing messages: 395
+
+HAM messages used: 983
+SPAM messages used: 989
+
+Accuracy: 0.9975
+Macro F1: 0.9975
+
+Classification report:
+              precision    recall  f1-score   support
+
+         HAM       1.00      0.99      1.00       197
+        SPAM       0.99      1.00      1.00       198
+
+    accuracy                           1.00       395
+   macro avg       1.00      1.00      1.00       395
+weighted avg       1.00      1.00      1.00       395
+
+
+Confusion matrix (rows=actual, columns=predicted):
+[[196   1]
+ [  0 198]]
+
+IMPORTANT:
+This is an experimental model trained on the full IIIT-D dataset.
+These results are not a verified Hinglish-only evaluation.
+The model requires separate testing on manually verified Hinglish
+and Hindi messages before claiming multilingual performance.

@@ -1,0 +1,28 @@
+IIIT-D HINGLISH-KEYWORD CANDIDATE HOLDOUT EVALUATION
+
+Held-out candidate messages: 52
+HAM: 37
+SPAM: 15
+
+Accuracy: 0.9808
+Macro F1: 0.9770
+
+Classification report:
+              precision    recall  f1-score   support
+
+         HAM       1.00      0.97      0.99        37
+        SPAM       0.94      1.00      0.97        15
+
+    accuracy                           0.98        52
+   macro avg       0.97      0.99      0.98        52
+weighted avg       0.98      0.98      0.98        52
+
+
+Confusion matrix (rows=actual, columns=predicted):
+[[36  1]
+ [ 0 15]]
+
+NOTE:
+These are keyword-selected candidate messages, not all manually
+verified Hinglish messages. Results are preliminary and do not
+represent a verified Hinglish-only benchmark.

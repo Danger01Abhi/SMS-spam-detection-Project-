@@ -19,3 +19,4 @@ __pycache__/
 
 # Jupyter temporary files
 .ipynb_checkpoints/
+/data/multilingual/iiitd_extracted/
