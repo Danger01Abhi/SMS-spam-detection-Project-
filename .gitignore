@@ -20,3 +20,5 @@ __pycache__/
 # Jupyter temporary files
 .ipynb_checkpoints/
 /data/multilingual/iiitd_extracted/
+/dashboard_ui_backup_before_bulk_20261030.py
+/data/multilingual/IIIT-D_SMS_Dataset.zip
